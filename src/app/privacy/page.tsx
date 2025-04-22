@@ -51,7 +51,7 @@ export default function Privacy() {
         <section className="space-y-4">
           <h3 className="text-xl font-semibold text-purple-400">Your Rights</h3>
           <p className="text-gray-300 leading-relaxed">
-            As we don't collect or store any personal data or images, you maintain complete control over your information. The service is designed to be privacy-first, ensuring your right to data privacy is protected at all times.
+            As we don&apos;t collect or store any personal data or images, you maintain complete control over your information. The service is designed to be privacy-first, ensuring your right to data privacy is protected at all times.
           </p>
         </section>
         <div className="flex justify-center mt-12">

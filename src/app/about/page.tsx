@@ -42,7 +42,7 @@ export default function About() {
         <section className="space-y-4">
           <h2 className="text-2xl font-semibold text-teal-400">Why Choose Us</h2>
           <p className="text-gray-300 leading-relaxed">
-            Our service stands out through its combination of precision, efficiency, and user privacy. We've developed sophisticated algorithms that ensure optimal compression while maintaining image quality, all while processing your files locally in your browser.
+            Our service stands out through its combination of precision, efficiency, and user privacy. We&apos;ve developed sophisticated algorithms that ensure optimal compression while maintaining image quality, all while processing your files locally in your browser.
           </p>
         </section>
 
