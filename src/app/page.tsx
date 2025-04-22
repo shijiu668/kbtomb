@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from 'react';
 import { resizeImage } from '@/utils/imageResizer';
+import Link from 'next/link';
 
 export default function Home() {
   const [file, setFile] = useState<File | null>(null);
@@ -53,9 +54,19 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen px-12 pb-12 pt-20 bg-gradient-to-br from-purple-900 via-blue-900 to-teal-900">
+    <main className="min-h-screen p-8 bg-gradient-to-br from-purple-900 via-blue-900 to-teal-900">
+      <nav className="flex justify-between items-center mb-12">
+        <Link href="/" className="text-2xl font-bold text-white hover:text-teal-400 transition">
+          kb to mb Image Resizer
+        </Link>
+        <div className="space-x-6">
+          <Link href="/technology" className="text-white hover:text-teal-400 transition">Technology</Link>
+          <Link href="/privacy" className="text-white hover:text-teal-400 transition">Privacy</Link>
+          <Link href="/about" className="text-white hover:text-teal-400 transition">About</Link>
+        </div>
+      </nav>
       <div className="max-w-4xl mx-auto space-y-12">
-        <header className="text-center space-y-6 pt-8">
+        <header className="text-center space-y-6">
           <h1 className="text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-purple-400 leading-relaxed">
             kb to mb Image Resizer
           </h1>
